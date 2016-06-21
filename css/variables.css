@@ -1,0 +1,10 @@
+:root {
+  --main-color: #76c5be;
+  --light-red: #e8645a;
+  --dark-red: #e2534b;
+  --lightest-red: #e5655d;
+
+  --main-radius: 4px;
+  --grey: #ececec;
+  --dark-grey: #7f8c8c;
+}

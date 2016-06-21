@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FE 001</title>
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+  <header id="main-header">
+    <div class="container">
+      <img src="img/logo.png" alt="Logo">
+
+      <nav class="main-nav">
+        <ul>
+          <li class="active-nav"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li class="dropdown-menu"><a href="#">Portfolio</a>
+            <div>
+              <ul>
+                <li><a href="#">Portfolio 1</a></li>
+                <li><a href="#">Portfolio 2</a></li>
+                <li><a href="#">Portfolio 3</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">contacts</a></li>
+          <li>
+            <input id="search-input" type="search">
+            <label for="search-input" class="fa fa-search"></label>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="main-slider">
+
+    <div class="slides-container">
+      <button id="main-slider--toleft"></button>  
+      <button id="main-slider--toright"></button>
+
+      <div class="single-slide active-slide" data-slide-id="1">
+        <h3><span>Some headline</span></h3>
+        <p class="slide-subheadline"><span>Sub headline on two lines on two line<br>Sub headline on two lines</span></p>
+      </div>
+      <div class="single-slide" data-slide-id="2">
+        <h3><span>Some headline</span></h3>
+        <p class="slide-subheadline"><span>Sub headline on two lines</span></p>
+      </div>
+      <div class="single-slide" data-slide-id="3">
+        <h3><span>Some headline</span></h3>
+        <p class="slide-subheadline"><span>Sub headline on two lines</span></p>
+      </div>
+    </div>
+
+    <div class="slider-nav">
+      <span></span>
+      <span class="active-slide"></span>
+      <span></span>
+    </div>
+  </section>
+
+  <section id="view-list">
+    <div class="action-container container">
+      <div class="view-list--text">
+        <h4>Some h4 title goes here</h4>
+        <p>Some not very long paragraph goes here ok?</p>
+      </div>
+      <button type="button">View more</button>
+    </div>
+
+    <div class="bullets-container container">
+      <div class="single-bullet">
+        <div><img src="img/ok-green.png" title="some title"><img src="img/ok.png" title="some title"></div>
+        <h5>Some title</h5>
+        <p>Some bullet description about something interesting stuff</p>
+        <button type="button">read more</button>
+      </div><!--
+      --><div class="single-bullet">
+        <div><img src="img/key.png" title="some title"><img src="img/key-red.png" title="some title"></div>
+        <h5>Some title</h5>
+        <p>Some bullet description about something interesting stuff</p>
+        <button type="button">read more</button>
+      </div><!--
+      --><div class="single-bullet">
+        <div><img src="img/flag.png" title="some title"><img src="img/flag-red.png" title="some title"></div>
+        <h5>Some title</h5>
+        <p>Some bullet description</p>
+        <button type="button">read more</button>
+      </div><!--
+      --><div class="single-bullet">
+        <div><img src="img/flask.png" title="some title"><img src="img/flask-red.png" title="some title"></div>
+        <h5>Some title</h5>
+        <p>Some bullet description about something interesting stuff</p>
+        <button type="button">read more</button>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer">
+    <div class="container">
+      <div class="main-description">
+        <img src="img/logo.png" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius dolorem non provident fugit, distinctio ea saepe voluptatum corrupti sit optio.</p>
+        <div>Phone: <span class="contacts-container">380 66 000 0000</span></div>
+        <div>Email: <span class="contacts-container">info@email.com</span></div>
+      </div><!--
+   --><div class="footer-menu">
+        <div class="footer-menu_title">Company</div>
+        <ul>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Menu item1</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Menu item2</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Menu item3</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Menu item4</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Menu item5</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Menu item6</a></li>
+        </ul>
+      </div><!--
+   --><div class="footer-menu">
+        <div class="footer-menu_title">Community</div>
+        <ul>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Menu item1</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Menu item2</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Menu item3</a></li>
+          <li><i class="fa fa-angle-right"></i> <a href="#">Menu item4</a></li>
+        </ul>
+      </div><!--
+   --><div class="last-posts-widget">
+        <div class="widget-title"><span>from the </span>blog</div>
+        <div class="post-preview-container">
+          <div class="image-preview"><i class="fa fa-picture-o"></i></div><!--
+       --><div class="post-info">
+            <div class="post-description">Lorem ipsum dolor sit amet, consectetur.</div>
+            <div class="post-date">17 June, 2016</div>
+          </div>
+        </div>
+        <div class="post-preview-container">
+          <div class="image-preview"><i class="fa fa-picture-o"></i></div><!--
+       --><div class="post-info">
+            <div class="post-description">Lorem ipsum dolor sit amet, consectetur.</div>
+            <div class="post-date">17 June, 2016</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer id="secondary-footer">
+    <div class="container justified-block">
+      <div class="page-meta">2013 <span>ModusVersus</span></div>
+      <div class="social-links">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-google-plus"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-rss"></i>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://use.fonticons.com/2a6a4cc6.js"></script>
+</body>
+</html>
